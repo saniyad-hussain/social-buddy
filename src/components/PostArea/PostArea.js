@@ -8,7 +8,7 @@ const PostArea = () => {
 	const posts = useContext(postData);
 	return (
 		<Container>
-			<Grid container spacing={3}>
+			<Grid container spacing={4}>
 				{posts.map((post) => (
 					<Posts post={post}></Posts>
 				))}
